@@ -1,0 +1,41 @@
+main {
+  display: flex;
+  justify-content: space-evenly;
+  flex-flow: row wrap;
+  align-content: center;
+
+}
+.cardContent {
+  border: 1px solid lightslategray;
+  padding: 10px;
+  width: 25%;
+  margin: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.cardContent img {
+  border-radius: 100px;
+  
+}
+
+.cardContent h3 {
+  font-size: 17px;
+}
+
+.cardContent p {
+  color: lightgrey;
+  font-size: 13px;
+}
+
+@media (max-width: 572px) {
+  .cardContent {
+    width: 80%;
+    margin: 10px;
+    height: auto;
+
+  }
+  
+}
